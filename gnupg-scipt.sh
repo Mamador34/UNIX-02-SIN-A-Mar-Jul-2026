@@ -1,4 +1,4 @@
 uname -a #da informacion del ordenador
 which gpg  #ubicacion del binario de gpg
-gpg --version #me da la version 
-
+gpg --version #me da la version del gpg e inforamcion adicional  
+gpg --full-generate-key #genero las llaves publica y privada
