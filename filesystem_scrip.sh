@@ -4,3 +4,5 @@ cd /dev
 ls
 /proc 
 #pwd print working directory
+ls -F #visual indicator
+ls -i #inodo identifier
