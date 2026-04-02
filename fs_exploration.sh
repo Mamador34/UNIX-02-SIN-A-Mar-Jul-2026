@@ -12,5 +12,7 @@ sudo parted -l && echo -e "\n---\n" && lsblk -f && echo -e "\n---\n"
 sudo apt update
 #It is used to verify if your system is booting in UEFI mode or BIOS mode
  [ -d /sys/firmware/efi ] && echo "UEFI" || echo "BIOS"
- #Si la condición falla → ejecuta lo siguiente
+ #If the condition fails → execute the following
  ||
+ #It is used to display detailed information about a file in Linux.
+ stat test.txt
