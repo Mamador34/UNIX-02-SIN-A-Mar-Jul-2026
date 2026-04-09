@@ -1,3 +1,8 @@
 mkdirk #create a directory
 cd proyectop #
 cd /workspaces/UNIX-02-SIN-A-Mar-Jul-2026/proyecto  #
+echo $PATH #It shows the paths where the system looks for your programs.
+cd /usr/local # It takes you to a shared system folder (local programs).
+cd $HOME #It returns you to your personal user folder.
+echo $BASH #It tells you where the Bash program you are using is installed.
+cd /workspaces/ #It is an absolute path that takes you from your home folder to the main working directory of the container.
