@@ -16,3 +16,5 @@ ls -a # It is the standard command to see what is "really" in a folder without a
 total 8  #
 1573093 drwxrwxrwx+ 2 codespace codespace 4096 Apr  9 12:19 . # 
 1572874 drwxrwxrwx+ 5 codespace root      4096 Apr  9 12:19 .. #
+ ls /etc | tail -20 # Displays the last 20 files or folders inside /etc in alphabetical order.
+ls /etc | head -20 # It shows you the "beginning" of the file list in /etc.
