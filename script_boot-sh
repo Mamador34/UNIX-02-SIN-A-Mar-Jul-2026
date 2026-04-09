@@ -6,3 +6,13 @@ cd /usr/local # It takes you to a shared system folder (local programs).
 cd $HOME #It returns you to your personal user folder.
 echo $BASH #It tells you where the Bash program you are using is installed.
 cd /workspaces/ #It is an absolute path that takes you from your home folder to the main working directory of the container.
+ls -lai #It is a combination of three options to obtain the maximum possible information from each file in a folder.
+ls -l -a -i #  They do exactly the same thing (you can group the letters or display them separately). They show a detailed list that includes:
+man ls #Open the instruction manual for the ls command (press q to exit).
+ls --all # Es lo mismo que ls -a; muestra absolutamente todos los archivos, incluyendo los ocultos.
+ls -a # It is the standard command to see what is "really" in a folder without anything being hidden.
+.#It represents the current directory. It's often used to run programs located there. 
+.. #It represents the parent directory (the folder directly above it). It's what you use to "move up" with
+total 8  #
+1573093 drwxrwxrwx+ 2 codespace codespace 4096 Apr  9 12:19 . # 
+1572874 drwxrwxrwx+ 5 codespace root      4096 Apr  9 12:19 .. #
