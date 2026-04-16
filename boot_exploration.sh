@@ -5,4 +5,6 @@ ls -lah
 mkdir -- -rf
 #Create a folder named literally "-rf", using the double hyphen to prevent the system from mistaking that name for a command instruction.
 rmdir -- -rf
-#Delete the folder named literally "-rf", indicating with the double hyphen that the name should not be interpreted as a command instruction or flag.
+#Delete the folder named literally "-rf", indicating with the double hyphen that the name should not be interpreted as a command instruction or flag
+man git-clone
+#Open the official git clone manual to see all its instructions, options, and detailed usage examples.
