@@ -13,14 +13,16 @@ man ls
 man git
 #
 chmod +x script.sh
-#
+#It grants execution permissions to the script.sh file, allowing the system to run it as a program instead of reading it as simple text.
 chmod u+x script.sh
-#
+#It grants execution permission specifically to the owner (user) of the script.sh file, without affecting the permissions of the group or other users.
 chmod o-r secreto.txt
-#
+#Remove read permission from the secret.txt file for all users who are not the owner or members of the file group ("the others").
 touch secreto.txt
-#
+#Create an empty file called "secret.txt" or, if the file already exists, update its access and modification date to the current time.
 touch privado
-#
+#Create an empty file called "private" or, if it already exists, update its modification date and time without altering its contents.
 chmod u+rw,go-rwx privado
-#
+#Assign full read and write permissions to the owner (user) and remove any access (read, write and execute) for the group and the rest of the world on the "private" file.
+echo "hola" | sudo tee /etc/archivo_protegido>/dev/null
+#Write the text "hello" to a file that requires administrator permissions, using tee to elevate privileges and >/dev/null to hide the output in the terminal.
