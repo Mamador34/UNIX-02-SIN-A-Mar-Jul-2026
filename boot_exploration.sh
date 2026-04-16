@@ -8,3 +8,19 @@ rmdir -- -rf
 #Delete the folder named literally "-rf", indicating with the double hyphen that the name should not be interpreted as a command instruction or flag
 man git-clone
 #Open the official git clone manual to see all its instructions, options, and detailed usage examples.
+man ls
+#
+man git
+#
+chmod +x script.sh
+#
+chmod u+x script.sh
+#
+chmod o-r secreto.txt
+#
+touch secreto.txt
+#
+touch privado
+#
+chmod u+rw,go-rwx privado
+#
